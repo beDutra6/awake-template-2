@@ -32,7 +32,7 @@ export default {
     }
   ],
   hero: {
-    theme: 'mixt' // options: mist, light, dark
+    theme: 'mist' // options: mist, light, dark
   },
 
   // Main Layout/Style
