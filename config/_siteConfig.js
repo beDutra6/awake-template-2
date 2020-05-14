@@ -29,25 +29,15 @@ export default {
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
     }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'mixt' // options: mist, light, dark
   },
 
   // Main Layout/Style
   layout: {
-    width: 'contained', // Options: contained, full
+    width: 'full', // Options: contained, full
     theme: 'one-column' // Options: one-column, sidebar-right, sidebar-left
   },
 
@@ -59,14 +49,14 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
